@@ -14,4 +14,5 @@
 
     sudo chown -R admin:staff xxx
     
-
+Step1. Xcode plugin
+![](jenkins/Screen_Shot_2015-12-20_at_18.45.09)
