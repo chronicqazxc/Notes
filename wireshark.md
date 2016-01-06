@@ -8,7 +8,7 @@
     就可以在wireshark中選擇irv0抓取手機的封包
     
 Step1
-![step1](assets/Screen_Shot_2015-11-21_at_15.06.39.png)
+![step1](assets/Screen_Shot_2015-11-21_at_15.00.31.png)
 Step2
 ![step2](assets/Screen_Shot_2015-11-21_at_15.06.39.png)
 Step3
