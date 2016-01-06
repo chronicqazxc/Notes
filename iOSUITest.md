@@ -1,7 +1,6 @@
 # iOS UI Test
 
-以下內容參考此篇文章，並列出重點部分
-[[https://www.bignerdranch.com/blog/ui-testing-in-xcode-7-part-1-ui-testing-gotchas/]]
+以下內容參考此篇[文章](https://www.bignerdranch.com/blog/ui-testing-in-xcode-7-part-1-ui-testing-gotchas/)，並列出重點部分
 
 UI Test的概念
 Elements
