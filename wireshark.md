@@ -10,7 +10,7 @@
 Step1
 ![step1](assets/Screen_Shot_2015-11-21_at_15.00.31.png)
 Step2
-![step2](assets/Screen_Shot_2015-11-21_at_15.06.39.png)
+![step2](assets/Screen_Shot_2015-11-21_at_15.01.48.png)
 Step3
 ![step3](assets/Screen_Shot_2015-11-21_at_15.06.39.png)
 Step4
