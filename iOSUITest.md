@@ -18,7 +18,8 @@ Simulated Events
 
 以移動專案為例:
 
-```- (void)testExample {
+```
+- (void)testExample {
     XCUIApplication *cuiApplication = [[XCUIApplication alloc] init];
 //    XCUIElementQuery *tabBarsQuery = cuiApplication.tabBars;
     XCUIElementQuery *tablesQuery = cuiApplication.tables;
@@ -55,5 +56,6 @@ Simulated Events
         [segmentedControl.staticTexts["五日"] tap];
         [segmentedControl.staticTexts["分时"] tap];
       }
-   }```
+   }
+```
 
