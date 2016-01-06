@@ -16,9 +16,6 @@ Common types可以利用存取運算子來取得全部的tables而不必人工�
 Simulated Events
 取得element後利用tap或doubleTap等來模擬操作
 
-
-```test```
-
 以移動專案為例:
 
 ```- (void)testExample {
