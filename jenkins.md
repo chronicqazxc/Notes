@@ -14,7 +14,9 @@
 
     sudo chown -R admin:staff xxx
     
-Step1. Xcode plugin
-![Xcode plugin](assets/jenkins/Screen_Shot_2015-12-20_at_18.45.09.png)
+Step1. 
 
+Xcode plugin
+![Xcode plugin](assets/jenkins/Screen_Shot_2015-12-20_at_18.45.09.png)
+FTP plugin
 Step2. 
