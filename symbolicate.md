@@ -1,3 +1,3 @@
 # Symbolicate
 
-![](assets/symbolicate/backtrace1.png)
+![](assets/symbolicate/backtrace1.jpg)
