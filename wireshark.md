@@ -14,6 +14,6 @@ Step2
 Step3
 ![step3](assets/Screen_Shot_2015-11-21_at_15.03.49.png)
 Step4
-![step4](assets/Screen_Shot_2015-11-21_at_15.06.39.png)
+![step4](assets/Screen_Shot_2015-11-21_at_15.05.37.png)
 Step5
 ![step5](assets/Screen_Shot_2015-11-21_at_15.06.39.png)
