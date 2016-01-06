@@ -19,5 +19,5 @@ Step1.
 Xcode plugin
 ![Xcode plugin](assets/jenkins/Screen_Shot_2015-12-20_at_18.45.09.png)
 FTP plugin
-![Xcode plugin](assets/jenkins/Screen_Shot_2015-12-20_at_18.45.09.png)
+![Xcode plugin](assets/jenkins/Screen_Shot_2015-12-20_at_21.44.49.png)
 Step2. 
