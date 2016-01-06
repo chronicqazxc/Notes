@@ -9,9 +9,9 @@
     
 Step1
 ![step1](assets/Screen_Shot_2015-11-21_at_15.00.31.png)
-Step2
+Step2,3
 ![step2](assets/Screen_Shot_2015-11-21_at_15.01.48.png)
-Step3
+Step4,5
 ![step3](assets/Screen_Shot_2015-11-21_at_15.03.49.png)
 Connect
 ![Connect](assets/Screen_Shot_2015-11-21_at_15.05.37.png)
