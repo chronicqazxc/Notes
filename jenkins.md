@@ -23,4 +23,4 @@ FTP plugin
 Step2. 
 
 Generate Item
-![Generate Item](assets/jenkins/Screen_Shot_2015-12-20_at_21.44.49.png)
+![Generate Item](assets/jenkins/Screen_Shot_2015-12-20_at_18.42.25.png)
