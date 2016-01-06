@@ -24,3 +24,8 @@ Step2.
 
 Generate Item
 ![Generate Item](assets/jenkins/Screen_Shot_2015-12-20_at_18.42.25.png)
+
+Step3.
+
+Setting
+![Setting](assets/jenkins/Screen_Shot_2015-12-20_at_18.42.25.png)
