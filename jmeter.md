@@ -1,5 +1,5 @@
 # JMeter
 
-brew install jmeter
+brew install jmeter --with-plugins
 
 open /usr/local/bin/jmeter
