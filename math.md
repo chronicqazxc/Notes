@@ -1,0 +1,1 @@
+![Local Image](./gitbook/images/<image_file_name>)
