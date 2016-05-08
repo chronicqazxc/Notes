@@ -9,4 +9,4 @@
 * [JSON server tutorial](json-server.md)
 * [Carthage](carthage.md)
 * [JMeter](jmeter.md)
-* Math(math.md)
+* Math
