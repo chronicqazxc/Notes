@@ -1,1 +1,1 @@
-![Local Image](./gitbook/images/<image_file_name>)
+![Local Image](http://www.math.com/tables/graphs/unitcircle.gif)
