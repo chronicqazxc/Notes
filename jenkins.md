@@ -31,3 +31,8 @@ Setting
 ![Setting](assets/jenkins/Screen_Shot_2015-12-20_at_18.46.22.png)
 ![Setting](assets/jenkins/Screen_Shot_2015-12-20_at_18.38.41.png)
 ![Setting](assets/jenkins/Screen_Shot_2015-12-20_at_18.47.23.png)
+
+
+Building issues:
+* [IDEDistributionErrorDomain Code=1 error and Fastlane](http://ajmccall.com/idedistributionerrordomain-code-1-error-and-fastlane/)
+* [Clear CocoaPods cache, re-download and re-install all pods](https://gist.github.com/mbinna/4202236)
