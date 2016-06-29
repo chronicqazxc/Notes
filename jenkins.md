@@ -39,7 +39,7 @@ Inject environment variables to the build process:
 Inject passwords to the build as environment variables:
   ....
     
-Build with xcodebuilder:
+#Build with xcodebuilder:
 1. export LC_ALL="en_US.UTF-8"
    cd dlr && /usr/local/bin/pod update
    
