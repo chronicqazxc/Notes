@@ -54,21 +54,21 @@ Build with xcodebuilder:
     exportFile="${exportPath}/${PROJECT}_${VERSION}_${BUILD_NUMBER}.ipa"
 
   echo 'Building IPA for HockeyApp'
-  
-  /usr/bin/xcodebuild -scheme ${scheme} \
-					-workspace "${WORKSPACE}/${PROJECT}.xcworkspace" \
-					-derivedDataPath "${WORKSPACE}/DerivedData" \
-					-configuration Prerelease clean build \
-                    archive -archivePath $PWD/$archivePath \
-					CODE_SIGN_IDENTITY="iPhone Developer: XXXX"
-                                                      
-  /usr/bin/xcodebuild -exportArchive \
-                      -archivePath ${PWD}/${archivePath} \
-                      -exportOptionsPlist "/Users/Shared/Jenkins/****/exportOptions.plist" \
-                      -exportPath ${PWD}/${exportFile}
+ 
+      /usr/bin/xcodebuild -scheme ${scheme} \
+      -workspace "${WORKSPACE}/${PROJECT}.xcworkspace" \
+      -derivedDataPath "${WORKSPACE}/DerivedData" \
+      -configuration Prerelease clean build \
+      archive -archivePath $PWD/$archivePath \
+      CODE_SIGN_IDENTITY="iPhone Developer: XXXX"
+        
+     /usr/bin/xcodebuild -exportArchive \
+     -archivePath ${PWD}/${archivePath} \
+     -exportOptionsPlist "/Users/Shared/Jenkins/****/exportOptions.plist" \
+     -exportPath ${PWD}/${exportFile}
 
-  DSYM="${PWD}/${archivePath}/dSYMs/${PROJECT}.app.dSYM"
-  /usr/bin/zip -r "${PWD}/${exportPath}/${PROJECT}.dSYM.zip" "${DSYM}"
+    DSYM="${PWD}/${archivePath}/dSYMs/${PROJECT}.app.dSYM"
+    /usr/bin/zip -r "${PWD}/${exportPath}/${PROJECT}.dSYM.zip" "${DSYM}"
 
   TODO:Upload ipa and dSYM to HockeyApp
 
