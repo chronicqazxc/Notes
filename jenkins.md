@@ -42,8 +42,9 @@ Inject passwords to the build as environment variables:
 Build with xcodebuilder:
 1. export LC_ALL="en_US.UTF-8"
    cd dlr && /usr/local/bin/pod update
-2. # UNLICK KEYCHAIN
-   security unlock -p $keychainPassword ~/Library/Keychains/login.keychain
+   
+2. security unlock -p $keychainPassword ~/Library/Keychains/login.keychain
+
 3. INFOPLIST_FILE=${WORKSPACE}/${TARGET}/${PROJECT}-Info.plist
    export VERSION=`defaults read ${INFOPLIST_FILE} CFBundleShortVersionString`
    DATE=$(date +%Y-%m-%d)
