@@ -21,5 +21,5 @@
       
 * [Functional Programming in Swift 1](https://www.raywenderlich.com/114456/introduction-functional-programming-swift)
 * [Functional Progrmming in Swift 2](https://www.raywenderlich.com/82599/swift-functional-programming-tutorial)    
-
+* [Map or Reduce with index](http://stackoverflow.com/questions/28012205/map-or-reduce-with-index-in-swift)
 
