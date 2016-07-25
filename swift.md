@@ -18,6 +18,8 @@
       let kidRideFilter = createRideTypeFilter(.Kids)
 
       print(kidRideFilter(parkRides))
-    
+      
+* [Functional Programming in Swift 1](https://www.raywenderlich.com/114456/introduction-functional-programming-swift)
+* [Functional Progrmming in Swift 2](https://www.raywenderlich.com/82599/swift-functional-programming-tutorial)    
 
 
