@@ -22,4 +22,5 @@
 * [Functional Programming in Swift 1](https://www.raywenderlich.com/114456/introduction-functional-programming-swift)
 * [Functional Progrmming in Swift 2](https://www.raywenderlich.com/82599/swift-functional-programming-tutorial)    
 * [Map or Reduce with index](http://stackoverflow.com/questions/28012205/map-or-reduce-with-index-in-swift)
-
+* [Using bridging headers with framework targets is unsupported](http://stackoverflow.com/questions/24875745/xcode-6-beta-4-using-bridging-headers-with-framework-targets-is-unsupported)
+* [non-modular header inside framework module](http://stackoverflow.com/questions/24103169/swift-compiler-error-non-modular-header-inside-framework-module)
