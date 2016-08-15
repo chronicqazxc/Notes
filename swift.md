@@ -24,3 +24,31 @@
 * [Map or Reduce with index](http://stackoverflow.com/questions/28012205/map-or-reduce-with-index-in-swift)
 * [Using bridging headers with framework targets is unsupported](http://stackoverflow.com/questions/24875745/xcode-6-beta-4-using-bridging-headers-with-framework-targets-is-unsupported)
 * [non-modular header inside framework module](http://stackoverflow.com/questions/24103169/swift-compiler-error-non-modular-header-inside-framework-module)
+* Capture whole UICollecitonView
+        let seconds = 10.0
+        let delay = seconds * Double(NSEC_PER_SEC)  // nanoseconds per seconds
+        let dispatchTime = dispatch_time(DISPATCH_TIME_NOW, Int64(delay))
+        // TODO: Simulate internel delay
+        dispatch_after(dispatchTime, dispatch_get_main_queue(), { [weak self] in
+            // Draw1
+            let size = self?.dataSource.collectionView.contentSize
+            UIGraphicsBeginImageContextWithOptions(size!, (self?.dataSource.collectionView.opaque)!, 0.0)
+          self?.dataSource.collectionView.layer.renderInContext(UIGraphicsGetCurrentContext()!)
+            
+            // Draw2
+            let heigh = (self?.dataSource.collectionView.contentSize.height)! - (self?.view.frame.height)! + 10
+            
+            let rect = CGRectMake(0, (self?.view.frame.height)!, CGRectGetWidth((self?.dataSource.collectionView.bounds)!), (self?.dataSource.collectionView.contentSize.height)! - heigh)
+            self?.dataSource.collectionView.scrollRectToVisible(rect, animated: false)
+            self?.dataSource.collectionView.layer.renderInContext(UIGraphicsGetCurrentContext()!)
+            
+            // Draw3
+            let bottom = CGRectMake(0, heigh, CGRectGetWidth((self?.dataSource.collectionView.bounds)!), heigh)
+            self?.dataSource.collectionView.scrollRectToVisible(bottom, animated: false)
+            self?.dataSource.collectionView.layer.renderInContext(UIGraphicsGetCurrentContext()!)
+            
+            let image = UIGraphicsGetImageFromCurrentImageContext()
+            UIGraphicsEndImageContext()
+
+            UIImageWriteToSavedPhotosAlbum(image!, nil, nil, nil);
+        })
