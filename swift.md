@@ -3,6 +3,7 @@
 * [Synchronized](http://yuhua-chen.logdown.com/posts/253806-synchronized-on-swift)
 * [Completion Handlers](https://thatthinginswift.com/completion-handlers/)
 * [Declare closure](http://fuckingclosuresyntax.com)
+* [@noescape](http://stackoverflow.com/questions/28427436/noescape-attribute-in-swift-1-2)
 * [Memory management](http://katalisha.com/2016/01/22/ARC-Swift-closures-and-weak-self.html)
 * Curried function in Swift (Alternated solution)
       func rideTypeFilter(type: RideType, fromRides rides: [Ride]) -> [Ride] {
