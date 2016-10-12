@@ -2,9 +2,14 @@
 
 以下內容參考此篇[文章](https://www.bignerdranch.com/blog/ui-testing-in-xcode-7-part-1-ui-testing-gotchas/)，並列出重點部分
 
-UI Test的概念
-Elements
-UI tests 存在於app外,並利用proxy elements與app互動. 這些proxies代表實際在app中的UI元素. 例XCUIElement type為Button代表UIButton, 但XCUIElement所代表的物件只有某些屬性, 如title而沒有title color. 而且和他們互動只有限定的API 像是tap 或 double-tap.
+Concept of UI tests
+UI test exists outside of App, interact with app by proxy elements.
+Those proxies represents UI elements in App.
+e.g. XCUIElement type -> UIButton
+Attributes of objects whitch represented by XCUIElement not identical to the exact UI object.
+e.g. UIElement button have title attribute but doesn't have title color attribute.
+Interect API is restricted.
+e.g. Interect API tap or double-tap.
 
 Queries
 利用queries來導航結構樹並取得elements
