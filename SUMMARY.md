@@ -14,8 +14,9 @@
 * [WebApp&Server](webapp&server.md)
 * [MongoDB](mongodb.md)
 * [Auto layout debugging in Swift](https:/medium.com/ios-os-x-development/auto-layout-debugging-in-swift-93bcd21a4abf#.uvgqcfeuw)
-* [iOS UI Test](iOSUITest.md) 
+* [iOS UI Test](iOSUITest.md)
 * [Calabash-iOS](calabash-ios.md)
 * [iOS patterns](ios_patterns.md)
-* [Xcode unit test coverage](https://developer.apple.com/library/content/documentation/ToolsLanguages/Conceptual/Xcode_Overview/CheckingCodeCoverage.html)
-* Tips
+* [Xcode unit test coverage](https:/developer.apple.com/library/content/documentation/ToolsLanguages/Conceptual/Xcode_Overview/CheckingCodeCoverage.html)
+* [Tips](tips.md)
+
