@@ -18,3 +18,4 @@
 * [Calabash-iOS](calabash-ios.md)
 * [iOS patterns](ios_patterns.md)
 * [Xcode unit test coverage](https://developer.apple.com/library/content/documentation/ToolsLanguages/Conceptual/Xcode_Overview/CheckingCodeCoverage.html)
+* Tips
