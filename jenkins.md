@@ -42,34 +42,6 @@ Inject passwords to the build as environment variables:
 
 # Build with xcodebuilder:
 
-
-
-1. ```
-   # ADJUST PLIST 
-   #!/bin/sh
-
-   DATE=$(date +%Y%m%d)
-
-   INFOPLIST_FILE=${WORKSPACE}/DLR/SHDR/SHDR-Info.plist
-   #MAJOR_VERSION=1
-   #MINOR_VERSION=5
-   #PATCH=0
-   #PRELEASE_VERSION="alpha"
-
-   #Grabs info from plist
-   plist=$INFOPLIST_FILE
-   #appName="DLR Ref"
-
-   #currentVersion=${MAJOR_VERSION}"."${MINOR_VERSION}"."${PATCH}"-"$PRELEASE_VERSION
-   #currentVersion=${MAJOR_VERSION}"."${MINOR_VERSION}"-"$PRELEASE_VERSION
-
-   /usr/libexec/PlistBuddy -c "Set :CFBundleVersion ${DATE}" "$plist"
-   /usr/libexec/PlistBuddy -c "Set :CFBundleShortVersionString '4.5 SHDR NewRegulation (${BUILD_NUMBER})'" "$plist"
-   #/usr/libexec/PlistBuddy -c "Set :CFBundleIdentifier "$(
-   ) "$plist"
-
-   ```
-
 1. config.xml
 
 ```xml
@@ -203,18 +175,18 @@ echo 'Building IPA for HockeyApp'
 
 #BUILD & ARCHIVE
 /usr/bin/xcodebuild -scheme xxxx \
-					-workspace "${WORKSPACE}/xxxx/xxxx.xcworkspace" \
-					-derivedDataPath "${WORKSPACE}/xxxx/DerivedData" \
-					-configuration Debug clean build \
+                    -workspace "${WORKSPACE}/xxxx/xxxx.xcworkspace" \
+                    -derivedDataPath "${WORKSPACE}/xxxx/DerivedData" \
+                    -configuration Debug clean build \
                     archive -archivePath $PWD/$archivePath \
-                    
+
 # TODO: Distribution provision profile
-#					CODE_SIGN_IDENTITY="iPhone Distribution: xxxx Online" \
+#                    CODE_SIGN_IDENTITY="iPhone Distribution: xxxx Online" \
 #                    PROVISIONING_PROFILE_SPECIFIER=JenkinsWalletProvisioining                    
-                                   
+
 #EXPORT                   
 /usr/bin/xcodebuild -exportArchive \
-					-archivePath ${PWD}/${archivePath} \
+                    -archivePath ${PWD}/${archivePath} \
                     -exportOptionsPlist "/Users/Shared/Jenkins/xxxx/exportOptions.plist" \
                     -exportPath ${PWD}/${exportPath}
 
@@ -223,12 +195,12 @@ echo 'Building IPA for HockeyApp'
 #<?xml version="1.0" encoding="UTF-8"?>
 #<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 #<plist version="1.0">
-#	<dict>
-#		 <key>method</key>
-#		 <string>development</string>
-#		 <key>teamID</key>
-#		 <string>86BD45EKTC</string>
-#	</dict>
+#    <dict>
+#         <key>method</key>
+#         <string>development</string>
+#         <key>teamID</key>
+#         <string>86BD45EKTC</string>
+#    </dict>
 #</plist>
 ##
 
