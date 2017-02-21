@@ -269,8 +269,6 @@ Building issues:
 * [Clear CocoaPods cache, re-download and re-install all pods](https://gist.github.com/mbinna/4202236)
 * [git: error: unable to find utility "git", not a developer tool or in PATH Creating shallow clone of spec repo `master-1` from https://github.com/CocoaPods/Specs.git](https://github.com/CocoaPods/CocoaPods/issues/3631)
 
-
-
 ## PR Build
 
 ### Github
@@ -281,5 +279,61 @@ Building issues:
 
 ### Jenkins
 
-![](/assets/jenkins_1.png)![](/assets/jenkins_2.png)![](/assets/jenkins_3.png)
+![](/assets/jenkins_1.png)![](/assets/jenkins_2.png)
+
+
+
+![](/assets/jenkins_5.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
