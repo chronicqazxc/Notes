@@ -271,3 +271,15 @@ Building issues:
 
 
 
+## PR Build
+
+### Github
+
+![](/assets/github_1.png)
+
+![](/assets/github_2.png)
+
+### Jenkins
+
+![](/assets/jenkins_1.png)![](/assets/jenkins_2.png)![](/assets/jenkins_3.png)
+
