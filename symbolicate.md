@@ -17,3 +17,5 @@ $ ./symbolicatecrash -v CrystalTouch.crash  CrystalTouch.app.dSYM
 
 ![](assets/symbolicate/backtrace2.jpg)
 
+[http://stackoverflow.com/questions/26079056/atos-does-not-symbolicate-system-frameworks-libraries-properly](http://stackoverflow.com/questions/26079056/atos-does-not-symbolicate-system-frameworks-libraries-properly "Atos")
+
