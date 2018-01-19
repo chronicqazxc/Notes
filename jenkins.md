@@ -142,7 +142,7 @@ plist=$INFOPLIST_FILE
 #currentVersion=${MAJOR_VERSION}"."${MINOR_VERSION}"-"$PRELEASE_VERSION
 
 /usr/libexec/PlistBuddy -c "Set :CFBundleVersion ${DATE}" "$plist"
-/usr/libexec/PlistBuddy -c "Set :CFBundleShortVersionString 'xxxx xxxx (${BUILD_NUMBER})'" "$plist"
+/usr/libexec/PlistBuddy -c "Set :CFBundleShortVersionString 'xxxx xxxx'" "$plist"
 #/usr/libexec/PlistBuddy -c "Set :CFBundleIdentifier "$(PRODUCT_BUNDLE_IDENTIFIER) "$plist"
 </command>
     </hudson.tasks.Shell>
@@ -181,8 +181,8 @@ echo 'Building IPA for HockeyApp'
                     archive -archivePath $PWD/$archivePath \
 
 # TODO: Distribution provision profile
-#                    CODE_SIGN_IDENTITY="iPhone Distribution: xxxx Online" \
-#                    PROVISIONING_PROFILE_SPECIFIER=JenkinsWalletProvisioining                    
+#                    CODE_SIGN_IDENTITY="iPhone Distribution: xxxx" \
+#                    PROVISIONING_PROFILE_SPECIFIER=                    
 
 #EXPORT                   
 /usr/bin/xcodebuild -exportArchive \
@@ -199,7 +199,7 @@ echo 'Building IPA for HockeyApp'
 #         <key>method</key>
 #         <string>development</string>
 #         <key>teamID</key>
-#         <string>86BD45EKTC</string>
+#         <string></string>
 #    </dict>
 #</plist>
 ##
@@ -227,7 +227,7 @@ cd ${PWD}/${exportPath}
       <teamDomain>xxxxac</teamDomain>
       <authToken>xxxxxx</authToken>
       <buildServerUrl>http://xx.xx.xx.xxx/</buildServerUrl>
-      <room>#jenkins-ci-ios</room>
+      <room></room>
       <startNotification>false</startNotification>
       <notifySuccess>true</notifySuccess>
       <notifyAborted>false</notifyAborted>
@@ -255,7 +255,7 @@ cd ${PWD}/${exportPath}
       <passwordEntries>
         <EnvInjectPasswordEntry>
           <name>keychainPassword</name>
-          <value>x/xdJnx4d/zWzTPu95L8zLsODS5Td+dBccyYSMuT4oM=</value>
+          <value></value>
         </EnvInjectPasswordEntry>
       </passwordEntries>
     </EnvInjectPasswordWrapper>
@@ -279,7 +279,7 @@ Building issues:
 
 ### Jenkins
 
-![](/assets/jenkins_1.png)![](/assets/jenkins_2.png)![](/assets/jenkins_4.png)
+![](/assets/jenkins_1.png)
 
-![](/assets/jenkins_5.png)
+
 
