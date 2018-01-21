@@ -71,28 +71,27 @@ ExportOptions.plist
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>compileBitcode</key>
-	<false/>
-	<key>method</key>
-	<string>enterprise</string>
-	<key>provisioningProfiles</key>
-	<dict>
-		<key>com.xxx.xxx</key>
-		<string>ProvisionName</string>
-	</dict>
-	<key>signingCertificate</key>
-	<string>iPhone Distribution</string>
-	<key>signingStyle</key>
-	<string>manual</string>
-	<key>stripSwiftSymbols</key>
-	<true/>
-	<key>teamID</key>
-	<string>XXX</string>
-	<key>thinning</key>
-	<string>&lt;thin-for-all-variants&gt;</string>
+    <key>compileBitcode</key>
+    <false/>
+    <key>method</key>
+    <string>enterprise</string>
+    <key>provisioningProfiles</key>
+    <dict>
+        <key>com.xxx.xxx</key>
+        <string>ProvisionName</string>
+    </dict>
+    <key>signingCertificate</key>
+    <string>iPhone Distribution</string>
+    <key>signingStyle</key>
+    <string>manual</string>
+    <key>stripSwiftSymbols</key>
+    <true/>
+    <key>teamID</key>
+    <string>XXX</string>
+    <key>thinning</key>
+    <string>&lt;thin-for-all-variants&gt;</string>
 </dict>
 </plist>
-
 ```
 
 Building issues:
@@ -103,11 +102,7 @@ Building issues:
 
 ## PR Build
 
-### Github
-
-![](/assets/github_1.png)
-
-![](/assets/github_2.png)
+### Github![](/assets/github_1.png)![](/assets/github_2.png)
 
 ### Jenkins
 
