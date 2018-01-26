@@ -12,11 +12,11 @@
 * [Swift](swift.md)
 * [WebApp&Server](webapp&server.md)
 * [MongoDB](mongodb.md)
-* [Auto layout debugging in Swift](https:/medium.com/ios-os-x-development/auto-layout-debugging-in-swift-93bcd21a4abf#.uvgqcfeuw)
 * [iOS UI Test](iOSUITest.md)
 * [Calabash-iOS](calabash-ios.md)
 * [iOS patterns](ios_patterns.md)
 * [Tips](tips.md)
 * [rails](rails.md)
 * [iOS Unit test](ios-unit-test.md)
+* [Auto Layout](auto-layout.md)
 
