@@ -85,6 +85,9 @@ Building issues:
 * [Clear CocoaPods cache, re-download and re-install all pods](https://gist.github.com/mbinna/4202236)
 * [git: error: unable to find utility "git", not a developer tool or in PATH Creating shallow clone of spec repo `master-1` from https://github.com/CocoaPods/Specs.git](https://github.com/CocoaPods/CocoaPods/issues/3631)
 
+Build with parameters from GitHub:
+* [https://stackoverflow.com/a/31572888](https://stackoverflow.com/a/31572888)
+
 ## PR Build
 
 ### Github![](/assets/github_1.png)![](/assets/github_2.png)
