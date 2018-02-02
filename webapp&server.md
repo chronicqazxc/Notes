@@ -5,4 +5,4 @@
 * [Install Spring as Maven](https://spring.io/blog/2009/12/02/obtaining-spring-3-artifacts-with-maven/)
 * [Self-signed-certificate](https://www.digitalocean.com/community/tutorials/java-keytool-essentials-working-with-java-keystores)
 * [SSL in Netty](http://stackoverflow.com/questions/9573894/set-up-netty-with-2-way-ssl-handsake-client-and-server-certificate)
-* [5-common-server-setups-for-your-web-application](https:/www.digitalocean.com/community/tutorials/5-common-server-setups-for-your-web-application)
+* [5-common-server-setups-for-your-web-application](https://www.digitalocean.com/community/tutorials/5-common-server-setups-for-your-web-application)
