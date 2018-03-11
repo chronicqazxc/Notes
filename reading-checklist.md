@@ -1,9 +1,13 @@
 # Read checklist
-2018/03/04 
+## 2018/03/11
+### App Distribution 
+- [x] [https://medium.com/@ankushaggarwal/generate-apns-certificate-for-ios-push-notifications-85e4a917d522](https://medium.com/@ankushaggarwal/generate-apns-certificate-for-ios-push-notifications-85e4a917d522)
+
+## 2018/03/04 
 ### Machine Learning 
 - [x] [https://www.raywenderlich.com/164213/coreml-and-vision-machine-learning-in-ios-11-tutorial](https://www.raywenderlich.com/164213/coreml-and-vision-machine-learning-in-ios-11-tutorial) 
 
-2018/03/03 
+## 2018/03/03 
 ### Machine Learning 
 - [x] [https://www.swiftbysundell.com/posts/code-encapsulation-in-swift](https://www.swiftbysundell.com/posts/code-encapsulation-in-swift) 
 
@@ -20,3 +24,4 @@
 [//]: # "Machine Learning"
 [//]: # "Architecture"
 [//]: # "Xcode"
+[//]: # "App Distribution"
