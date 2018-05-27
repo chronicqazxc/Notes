@@ -3,4 +3,4 @@
 
 | Attributes | Access Control |
 |------------|----------------|
-| ![](https://github.com/chronicqazxc/note/blob/master/assets/git-hub/access_control.png) | ![](https://github.com/chronicqazxc/note/blob/master/assets/git-hub/attributes.png) |
+| ![](https://github.com/chronicqazxc/note/blob/master/assets/git-hub/attributes.png) | ![](https://github.com/chronicqazxc/note/blob/master/assets/git-hub/access_control.png) |
