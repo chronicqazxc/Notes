@@ -1,0 +1,6 @@
+1. [The Compiler](https://www.objc.io/issues/6-build-tools/compiler/)
+2. [Mach-O](https://www.objc.io/issues/6-build-tools/mach-o-executables/)
+3. [LLVM](http://www.aosabook.org/en/llvm.html)
+4. [LLVM Introduction](https://medium.com/@jyaunches/introduction-to-the-llvm-for-a-ios-engineer-8c00ed0f9ff0)
+5. [Swift Compiler Introduction](https://medium.com/xcblog/a-brief-overview-of-swift-compiler-7af0bd684718)
+6. [Swift Compiler](https://swift.org/compiler-stdlib/#compiler-architecture)
