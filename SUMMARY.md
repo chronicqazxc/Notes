@@ -20,6 +20,7 @@
 * [iOS Unit test](ios-unit-test.md)
 * [Auto Layout](auto-layout.md)
 * [Reading checklist](reading-checklist.md)
+* [Git](git.md)
 * [GitLfs](git-lfs.md)
 * [RVM](rvm.md)
 * [GitHub](git-hub.md)
