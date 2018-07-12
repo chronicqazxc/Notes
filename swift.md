@@ -54,3 +54,4 @@
 
             UIImageWriteToSavedPhotosAlbum(image!, nil, nil, nil);
         })
+* [https://appventure.me/2015/08/20/swift-pattern-matching-in-detail/](https://appventure.me/2015/08/20/swift-pattern-matching-in-detail/)
