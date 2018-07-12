@@ -1,2 +1,3 @@
-[https://medium.com/ios-os-x-development/auto-layout-debugging-in-swift-93bcd21a4abf\#.uvgqcfeuw](https://medium.com/ios-os-x-development/auto-layout-debugging-in-swift-93bcd21a4abf#.uvgqcfeuw "Auto Layout debugging")
+* [https://medium.com/ios-os-x-development/auto-layout-debugging-in-swift-93bcd21a4abf\#.uvgqcfeuw](https://medium.com/ios-os-x-development/auto-layout-debugging-in-swift-93bcd21a4abf#.uvgqcfeuw "Auto Layout debugging")
+* [http://www.wtfautolayout.com](http://www.wtfautolayout.com)
 
