@@ -1,6 +1,6 @@
 # Tips
 
-####Single tap & double tap
+#### Single tap & double tap
 ```objc
 UITapGestureRecognizer *singleTap = [[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(doSingleTap)] autorelease];
 singleTap.numberOfTapsRequired = 1; 
@@ -13,7 +13,7 @@ doubleTap.numberOfTapsRequired = 2;
 [singleTap requireGestureRecognizerToFail:doubleTap];
 ```
 
-####Perform connection on main thread
+#### Perform connection on main thread
 ```objc
 [self performSelectorOnMainThread:@selector(start) withObject:nil waitUntilDone:YES];
 
@@ -31,7 +31,7 @@ doubleTap.numberOfTapsRequired = 2;
 }
 ```
 
-####Scroll would not block timer
+#### Scroll would not block timer
 ```objc
 NSRunLoop *runloop = [NSRunLoop currentRunLoop];
 NSTimer *timer = [NSTimer timerWithTimeInterval:0.1 target:self selector:@selector(myTimerAction:) userInfo:nil repeats:YES];
