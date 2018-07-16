@@ -20,6 +20,10 @@
 - [ ] [https://github.com/onmyway133/fantastic-ios-architecture#clean-architecture](https://github.com/onmyway133/fantastic-ios-architecture#clean-architecture)
 ### Xcode
 - [ ] [https://cocoaengineering.com/2018/01/01/some-useful-url-schemes-in-xcode-9/](https://cocoaengineering.com/2018/01/01/some-useful-url-schemes-in-xcode-9/)
+### Live broadcast app
+- [ ] [https://github.com/ltebean/Live](https://github.com/ltebean/Live)
+### Face recognition
+- [ ] [https://www.moveoapps.com/blog/face-detection-ios-11-vision-framework/](https://www.moveoapps.com/blog/face-detection-ios-11-vision-framework/)
 
 [//]: # "Machine Learning"
 [//]: # "Architecture"
