@@ -1,4 +1,7 @@
 # Read checklist
+## 2018/07/18
+### Face recognition
+- [x] [https://www.moveoapps.com/blog/face-detection-ios-11-vision-framework/](https://www.moveoapps.com/blog/face-detection-ios-11-vision-framework/)
 ## 2018/03/11
 ### App Distribution 
 - [x] [https://medium.com/@ankushaggarwal/generate-apns-certificate-for-ios-push-notifications-85e4a917d522](https://medium.com/@ankushaggarwal/generate-apns-certificate-for-ios-push-notifications-85e4a917d522)
@@ -22,8 +25,6 @@
 - [ ] [https://cocoaengineering.com/2018/01/01/some-useful-url-schemes-in-xcode-9/](https://cocoaengineering.com/2018/01/01/some-useful-url-schemes-in-xcode-9/)
 ### Live broadcast app
 - [ ] [https://github.com/ltebean/Live](https://github.com/ltebean/Live)
-### Face recognition
-- [ ] [https://www.moveoapps.com/blog/face-detection-ios-11-vision-framework/](https://www.moveoapps.com/blog/face-detection-ios-11-vision-framework/)
 ## Others
 - [ ] [99-swift-problems](https://www.enekoalonso.com/projects/99-swift-problems/)
 
