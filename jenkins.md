@@ -97,5 +97,8 @@ Build with parameters from GitHub:
 ![](/assets/jenkins_1.png)![](/assets/jenkins_2.png)![](/assets/jenkins_3.png)![](/assets/jenkins_4.png)![](/assets/jenkins_5.png)
 
 ### GitHub OAuth App
-https://wiki.jenkins.io/display/JENKINS/GitHub+OAuth+Plugin
+https://wiki.jenkins.io/display/JENKINS/GitHub+OAuth+Plugin  
+
+![](/assets/jenkins/oauth_setting_github.png)  
+![](/assets/jenkins/oauth_setting_jenkins.png)  
 
