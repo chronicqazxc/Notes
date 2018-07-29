@@ -99,6 +99,6 @@ Build with parameters from GitHub:
 ### GitHub OAuth App
 https://wiki.jenkins.io/display/JENKINS/GitHub+OAuth+Plugin  
 
-![](/assets/jenkins/oauth_setting_github.png)  
-![](/assets/jenkins/oauth_setting_jenkins.png)  
-
+|GitHub|Jenkins|
+|--|--|
+|![](/assets/jenkins/oauth_setting_github.png)|![](/assets/jenkins/oauth_setting_jenkins.png)|  
