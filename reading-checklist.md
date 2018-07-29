@@ -25,6 +25,21 @@
 - [ ] [https://cocoaengineering.com/2018/01/01/some-useful-url-schemes-in-xcode-9/](https://cocoaengineering.com/2018/01/01/some-useful-url-schemes-in-xcode-9/)
 ### Live broadcast app
 - [ ] [https://github.com/ltebean/Live](https://github.com/ltebean/Live)
+### cmdevicemotion
+- [ ] [https://nshipster.com/cmdevicemotion/](https://nshipster.com/cmdevicemotion/)
+### AppleFaceDetection
+- [ ] [https://github.com/Weijay/AppleFaceDetection](https://github.com/Weijay/AppleFaceDetection)
+### cryptography
+- [ ] [https://digitalleaves.com/blog/2015/10/asymmetric-cryptography-in-swift/](https://digitalleaves.com/blog/2015/10/asymmetric-cryptography-in-swift/)
+- [ ] [https://developer.apple.com/documentation/security/certificate_key_and_trust_services/keys/using_keys_for_encryption](https://developer.apple.com/documentation/security/certificate_key_and_trust_services/keys/using_keys_for_encryption)
+- [ ] [https://www.slideshare.net/elbachirnouni/des-andrsaoverview](https://www.slideshare.net/elbachirnouni/des-andrsaoverview)
+### SSL cert
+- [ ] [https://www.digicert.com/ssl/](https://www.digicert.com/ssl/)
+- [ ] [https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/NetworkingTopics/Articles/OverridingSSLChainValidationCorrectly.html](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/NetworkingTopics/Articles/OverridingSSLChainValidationCorrectly.html)
+- [ ] [https://developer.apple.com/documentation/foundation/url_loading_system/handling_an_authentication_challenge](https://developer.apple.com/documentation/foundation/url_loading_system/handling_an_authentication_challenge)
+- [ ] [https://developer.apple.com/documentation/foundation/url_loading_system/handling_an_authentication_challenge/performing_manual_server_trust_authentication](https://developer.apple.com/documentation/foundation/url_loading_system/handling_an_authentication_challenge/performing_manual_server_trust_authentication)
+- [ ] [https://www.symantec.com/content/dam/symantec/docs/white-papers/certificate-pinning-en.pdf](https://www.symantec.com/content/dam/symantec/docs/white-papers/certificate-pinning-en.pdf)
+- [ ] [https://medium.com/@andersongusmao/certificate-pinning-technique-on-ios-af0f0813e88](https://medium.com/@andersongusmao/certificate-pinning-technique-on-ios-af0f0813e88)
 ## Others
 - [ ] [99-swift-problems](https://www.enekoalonso.com/projects/99-swift-problems/)
 
