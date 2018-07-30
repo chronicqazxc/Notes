@@ -40,6 +40,7 @@
 - [ ] [https://developer.apple.com/documentation/foundation/url_loading_system/handling_an_authentication_challenge/performing_manual_server_trust_authentication](https://developer.apple.com/documentation/foundation/url_loading_system/handling_an_authentication_challenge/performing_manual_server_trust_authentication)
 - [ ] [https://www.symantec.com/content/dam/symantec/docs/white-papers/certificate-pinning-en.pdf](https://www.symantec.com/content/dam/symantec/docs/white-papers/certificate-pinning-en.pdf)
 - [ ] [https://medium.com/@andersongusmao/certificate-pinning-technique-on-ios-af0f0813e88](https://medium.com/@andersongusmao/certificate-pinning-technique-on-ios-af0f0813e88)
+- [ ] [use-https-certificate-handling-to-protect-your-ios-app](https://www.techrepublic.com/blog/software-engineer/use-https-certificate-handling-to-protect-your-ios-app/)
 ## Others
 - [ ] [99-swift-problems](https://www.enekoalonso.com/projects/99-swift-problems/)
 - [ ] [ios-swift-setneedslayout-vs-layoutifneeded-vs-layoutsubviews](https://medium.com/@abhimuralidharan/ios-swift-setneedslayout-vs-layoutifneeded-vs-layoutsubviews-5a2b486da31c)
