@@ -31,7 +31,7 @@
 - [ ] [https://github.com/Weijay/AppleFaceDetection](https://github.com/Weijay/AppleFaceDetection)
 ### cryptography
 - [ ] [https://digitalleaves.com/blog/2015/10/asymmetric-cryptography-in-swift/](https://digitalleaves.com/blog/2015/10/asymmetric-cryptography-in-swift/)
-- [ ] [https://developer.apple.com/documentation/security/certificate_key_and_trust_services/keys/using_keys_for_encryption](https://developer.apple.com/documentation/security/certificate_key_and_trust_services/keys/using_keys_for_encryption)
+- [ ] [using_keys_for_encryption](https://developer.apple.com/documentation/security/certificate_key_and_trust_services/keys/using_keys_for_encryption)
 - [ ] [https://www.slideshare.net/elbachirnouni/des-andrsaoverview](https://www.slideshare.net/elbachirnouni/des-andrsaoverview)
 ### SSL cert
 - [ ] [https://www.digicert.com/ssl/](https://www.digicert.com/ssl/)
