@@ -12,6 +12,8 @@
 9. ```docker-compose run down```
 10. ```docker-compose run web bundle install```
 11. ```docker-compose up --build```
+## Gem install pg for Rails
+* [ERROR:  Error installing pg: ERROR: Failed to build gem native extension.](https://stackoverflow.com/a/39301829)
 ## Components
 * [sortable-lists](http://railscasts.com/episodes/147-sortable-lists-revised?view=asciicast)
 * [https://gorails.com/episodes/sortable-drag-and-drop](https://gorails.com/episodes/sortable-drag-and-drop)
