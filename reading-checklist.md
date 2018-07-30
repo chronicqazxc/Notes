@@ -35,9 +35,9 @@
 - [ ] [https://www.slideshare.net/elbachirnouni/des-andrsaoverview](https://www.slideshare.net/elbachirnouni/des-andrsaoverview)
 ### SSL cert
 - [ ] [https://www.digicert.com/ssl/](https://www.digicert.com/ssl/)
-- [ ] [https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/NetworkingTopics/Articles/OverridingSSLChainValidationCorrectly.html](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/NetworkingTopics/Articles/OverridingSSLChainValidationCorrectly.html)
+- [ ] [OverridingSSLChainValidationCorrectly](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/NetworkingTopics/Articles/OverridingSSLChainValidationCorrectly.html)
 - [ ] [https://developer.apple.com/documentation/foundation/url_loading_system/handling_an_authentication_challenge](https://developer.apple.com/documentation/foundation/url_loading_system/handling_an_authentication_challenge)
-- [ ] [https://developer.apple.com/documentation/foundation/url_loading_system/handling_an_authentication_challenge/performing_manual_server_trust_authentication](https://developer.apple.com/documentation/foundation/url_loading_system/handling_an_authentication_challenge/performing_manual_server_trust_authentication)
+- [ ] [performing_manual_server_trust_authentication](https://developer.apple.com/documentation/foundation/url_loading_system/handling_an_authentication_challenge/performing_manual_server_trust_authentication)
 - [ ] [https://www.symantec.com/content/dam/symantec/docs/white-papers/certificate-pinning-en.pdf](https://www.symantec.com/content/dam/symantec/docs/white-papers/certificate-pinning-en.pdf)
 - [ ] [https://medium.com/@andersongusmao/certificate-pinning-technique-on-ios-af0f0813e88](https://medium.com/@andersongusmao/certificate-pinning-technique-on-ios-af0f0813e88)
 - [ ] [use-https-certificate-handling-to-protect-your-ios-app](https://www.techrepublic.com/blog/software-engineer/use-https-certificate-handling-to-protect-your-ios-app/)
