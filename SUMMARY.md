@@ -23,6 +23,7 @@
 * [Git](git.md)
 * [GitLfs](git-lfs.md)
 * [RVM](rvm.md)
+* [Homebrew](homebrew.md)
 * [GitHub](git-hub.md)
 * [Compiler](compiler.md)
 * [Xcode](xcode.md)
