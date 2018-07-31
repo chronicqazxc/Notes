@@ -108,3 +108,7 @@ https://wiki.jenkins.io/display/JENKINS/GitHub+OAuth+Plugin
 |GitHub|Jenkins|
 |--|--|
 |![](/assets/jenkins/oauth_setting_github.png)|![](/assets/jenkins/oauth_setting_jenkins.png)|  
+
+### Jenkins in a Docker Container
+* [https://github.com/jenkinsci/docker/blob/master/README.md](https://github.com/jenkinsci/docker/blob/master/README.md)
+* [putting-jenkins-docker-container](https://engineering.riotgames.com/news/putting-jenkins-docker-container)
