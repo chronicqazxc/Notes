@@ -12,7 +12,8 @@
 10. [assign a port mapping to an existing Docker container?](https://stackoverflow.com/a/26622041)
 11. [restore-a-docker-volume-to-your-mac](https://medium.com/@jimkang/restore-a-docker-volume-to-your-mac-f79628617dee)
 12. [getting-path-and-accessing-persistent-volumes-in-docker-for-mac](https://timonweb.com/posts/getting-path-and-accessing-persistent-volumes-in-docker-for-mac/)
-13. []()
+13. [Docker for Mac Commands for Getting Into The Local Docker VM](https://www.bretfisher.com/docker-for-mac-commands-for-getting-into-local-docker-vm/)
+14. [How do I kill all screens](https://unix.stackexchange.com/a/94528)
 
 ## [Bind Mount](https://docs.docker.com/storage/bind-mounts/)
 ```shell
