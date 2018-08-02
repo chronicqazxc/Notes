@@ -13,7 +13,7 @@
 11. [getting-path-and-accessing-persistent-volumes-in-docker-for-mac](https://timonweb.com/posts/getting-path-and-accessing-persistent-volumes-in-docker-for-mac/)
 12. [Docker for Mac Commands for Getting Into The Local Docker VM](https://www.bretfisher.com/docker-for-mac-commands-for-getting-into-local-docker-vm/)
 13. [How do I kill all screens](https://unix.stackexchange.com/a/94528)
-14. Copy file from Docker VM to localhost: ```scp -r file_to_be_moved username@remote_host:/path/to/destination/dir```
+14. [SCP](http://www.hypexr.org/linux_scp_help.php) file from Docker VM to localhost: ```scp -r file_to_be_moved username@remote_host:/path/to/destination/dir```
 15. [Copying files from host to Docker container](https://stackoverflow.com/a/31971697)
 
 ## [Bind Mount](https://docs.docker.com/storage/bind-mounts/)
