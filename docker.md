@@ -11,9 +11,9 @@
 9. [understanding-volumes](https://container-solutions.com/understanding-volumes-docker/)
 ## [Bind Mount](https://docs.docker.com/storage/bind-mounts/)
 ```shell
-docker run -p 8080:8080 -p 50000:50000 -v /Users/tron/Documents/jenkins_home:/var/jenkins_home jenkins/jenkins
+docker run --name your_container_name -p 80:8080 -p 50000:50000 -v /Users/your_username/Documents/jenkins_home:/var/jenkins_home jenkins/jenkins:lts
 ```
 ## [Create Volume](https://docs.docker.com/engine/reference/commandline/volume_create/)
 ```shell
-docker run -p 8080:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home jenkins/jenkins:lts
+docker run --name your_container_name -p 80:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home jenkins/jenkins:lts
 ```
