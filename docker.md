@@ -9,6 +9,11 @@
 7. [Exploring Docker container's file system](https://stackoverflow.com/a/20816397)
 8. [Programmatically removes files/folder resides in docker container](https://stackoverflow.com/a/38591846)
 9. [understanding-volumes](https://container-solutions.com/understanding-volumes-docker/)
+10. [assign a port mapping to an existing Docker container?](https://stackoverflow.com/a/26622041)
+11. [restore-a-docker-volume-to-your-mac](https://medium.com/@jimkang/restore-a-docker-volume-to-your-mac-f79628617dee)
+12. [getting-path-and-accessing-persistent-volumes-in-docker-for-mac](https://timonweb.com/posts/getting-path-and-accessing-persistent-volumes-in-docker-for-mac/)
+13. []()
+
 ## [Bind Mount](https://docs.docker.com/storage/bind-mounts/)
 ```shell
 docker run --name your_container_name -p 80:8080 -p 50000:50000 -v /Users/your_username/Documents/jenkins_home:/var/jenkins_home jenkins/jenkins:lts
