@@ -15,6 +15,7 @@
 13. [How do I kill all screens](https://unix.stackexchange.com/a/94528)
 14. [SCP](http://www.hypexr.org/linux_scp_help.php) file from Docker VM to localhost: ```scp -r file_to_be_moved username@remote_host:/path/to/destination/dir```
 15. [Copying files from host to Docker container](https://stackoverflow.com/a/31971697)
+16. [Pushing and Pulling to and from Docker Hub](https://ropenscilabs.github.io/r-docker-tutorial/04-Dockerhub.html)
 
 ## [Bind Mount](https://docs.docker.com/storage/bind-mounts/)
 ```shell
