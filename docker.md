@@ -17,6 +17,7 @@
 15. [Copying files from host to Docker container](https://stackoverflow.com/a/31971697)
 16. [Pushing and Pulling to and from Docker Hub (Backup Images)](https://ropenscilabs.github.io/r-docker-tutorial/04-Dockerhub.html)
 17. [Backup Volumes](https://github.com/moby/moby/issues/32263#issuecomment-290753968)
+18. [Login container as root](https://stackoverflow.com/a/35485346)
 
 ## [Bind Mount](https://docs.docker.com/storage/bind-mounts/)
 ```shell
