@@ -28,6 +28,27 @@ docker run --name your_container_name -p 80:8080 -p 50000:50000 -v /Users/your_u
 docker run --name your_container_name -p 80:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home jenkins/jenkins:lts
 ```
 ## Back Volume
+1.
 ```shell
 docker run --rm --volumes-from jenkins_container_name --name tmp-backup -v $(pwd):/backup ubuntu tar cvf /backup/backup.tar /var/jenkins_home
+```
+2.
+```shell
+docker run -d -v $(pwd):/backup --name data-backup ubuntu /bin/sh -c "cd / && tar xvf /backup/backup.tar"
+```
+3.
+```shell
+docker commit data-backup repo/data-backup:$VERSION
+```
+4.
+```shell
+docker rm data-backup
+```
+5.
+```shell
+docker run -v /var/jenkins_home --entrypoint "bin/sh" --name data-container repo/data-backup:${VERSION}
+```
+6.
+```
+docker run --volumes-from=data-container --name your_container_name -p 80:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home jenkins/jenkins:lts
 ```
