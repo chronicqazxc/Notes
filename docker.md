@@ -27,3 +27,7 @@ docker run --name your_container_name -p 80:8080 -p 50000:50000 -v /Users/your_u
 ```shell
 docker run --name your_container_name -p 80:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home jenkins/jenkins:lts
 ```
+## Back Volume
+```shell
+docker run --rm --volumes-from container_name --name tmp-backup -v $(pwd):/backup alpine tar cvf /backup/backup.tar .
+```
