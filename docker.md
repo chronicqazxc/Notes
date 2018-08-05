@@ -29,5 +29,5 @@ docker run --name your_container_name -p 80:8080 -p 50000:50000 -v jenkins_home:
 ```
 ## Back Volume
 ```shell
-docker run --rm --volumes-from container_name --name tmp-backup -v $(pwd):/backup alpine tar cvf /backup/backup.tar .
+docker run --rm --volumes-from jenkins_container_name --name tmp-backup -v $(pwd):/backup ubuntu tar cvf /backup/backup.tar /var/jenkins_home
 ```
