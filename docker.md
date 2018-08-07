@@ -26,7 +26,7 @@ docker run --name your_container_name -p 80:8080 -p 50000:50000 -v /Users/your_u
 ```shell
 docker run --name your_container_name -p 80:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home jenkins/jenkins:lts
 ```
-## [Back Volume](https://stackoverflow.com/a/41279845)
+## [Backup Volume](https://stackoverflow.com/a/41279845)
 1. Backup the data volume from the data container named data-container-to-backup
 ```shell
 docker run --rm --volumes-from jenkins_container_name --name tmp-backup -v $(pwd):/backup ubuntu tar cvf /backup/backup.tar /var/jenkins_home
