@@ -46,6 +46,8 @@
 - [ ] [ios-swift-setneedslayout-vs-layoutifneeded-vs-layoutsubviews](https://medium.com/@abhimuralidharan/ios-swift-setneedslayout-vs-layoutifneeded-vs-layoutsubviews-5a2b486da31c)
 - [ ] [SwiftLint](https://github.com/realm/SwiftLint)
 - [ ] [danger](https://github.com/danger/danger)
+- [ ] [danger-swift](https://github.com/danger/danger-swift#danger-swift)
+- [ ] [danger-swift](https://danger.systems/js/swift.html)
 
 [//]: # "Machine Learning"
 [//]: # "Architecture"
