@@ -48,6 +48,7 @@
 - [ ] [danger](https://github.com/danger/danger)
 - [ ] [danger-swift](https://github.com/danger/danger-swift#danger-swift)
 - [ ] [danger-swift](https://danger.systems/js/swift.html)
+- [ ] [using-swiftlint-and-danger-for-swift-best-practices](https://medium.com/developermind/using-swiftlint-and-danger-for-swift-best-practices-48432e4e268a)
 
 [//]: # "Machine Learning"
 [//]: # "Architecture"
