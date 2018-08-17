@@ -49,6 +49,9 @@
 - [ ] [danger-swift](https://github.com/danger/danger-swift#danger-swift)
 - [ ] [danger-swift](https://danger.systems/js/swift.html)
 - [ ] [using-swiftlint-and-danger-for-swift-best-practices](https://medium.com/developermind/using-swiftlint-and-danger-for-swift-best-practices-48432e4e268a)
+- [ ] [ios-linting-at-pinterest](https://medium.com/@Pinterest_Engineering/ios-linting-at-pinterest-3108d8764390)
+- [ ] [Pinterest_Engineering](https://medium.com/@Pinterest_Engineering)
+- [ ] [Spotify Labs](https://labs.spotify.com)
 
 [//]: # "Machine Learning"
 [//]: # "Architecture"
