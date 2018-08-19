@@ -52,6 +52,7 @@
 - [ ] [ios-linting-at-pinterest](https://medium.com/@Pinterest_Engineering/ios-linting-at-pinterest-3108d8764390)
 - [ ] [Pinterest_Engineering](https://medium.com/@Pinterest_Engineering)
 - [ ] [Spotify Labs](https://labs.spotify.com)
+- [ ] [Semantic Version](https://semver.org)
 
 [//]: # "Machine Learning"
 [//]: # "Architecture"
