@@ -88,7 +88,7 @@ Building issues:
 Build with parameters from GitHub:
 * [https://stackoverflow.com/a/31572888](https://stackoverflow.com/a/31572888)
 
-## PR Build
+### PR Build
 |Github|
 |--|
 |![](/assets/github_1.png)|
@@ -108,6 +108,15 @@ https://wiki.jenkins.io/display/JENKINS/GitHub+OAuth+Plugin
 |GitHub|Jenkins|
 |--|--|
 |![](/assets/jenkins/oauth_setting_github.png)|![](/assets/jenkins/oauth_setting_jenkins.png)|  
+
+### GitHub Generic Webhook Trigger
+|Screenshot|
+|--|
+|![](/assets/jenkins/generic-webhook-trigger01.png|
+|![](/assets/jenkins/generic-webhook-trigger02.png|
+|![](/assets/jenkins/generic-webhook-trigger03.png|
+|![](/assets/jenkins/generic-webhook-trigger04.png|
+|![](/assets/jenkins/generic-webhook-trigger05.png|
 
 ### Jenkins in a Docker Container
 * [https://github.com/jenkinsci/docker/blob/master/README.md](https://github.com/jenkinsci/docker/blob/master/README.md)
