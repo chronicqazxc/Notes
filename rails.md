@@ -39,3 +39,5 @@
           <% end %>
 </div>
 ```
+## [link_to tag is being called twice](https://stackoverflow.com/a/45751736)
+
