@@ -97,9 +97,9 @@ Build with parameters from GitHub:
 |![](/assets/jenkins_4.png)|
 |![](/assets/jenkins_5.png)|
 
-|Github|
+|Github||
 |--|--|
-|Check Webhooks status|![](/assets/github_1.png)|
+| Check Webhooks status |![](/assets/github_1.png)|
 
 ### GitHub OAuth App
 https://wiki.jenkins.io/display/JENKINS/GitHub+OAuth+Plugin  
