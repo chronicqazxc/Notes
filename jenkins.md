@@ -89,11 +89,6 @@ Build with parameters from GitHub:
 * [https://stackoverflow.com/a/31572888](https://stackoverflow.com/a/31572888)
 
 ### PR Build
-|Github|
-|--|
-|![](/assets/github_1.png)|
-|![](/assets/github_2.png)|
-
 |Jenkins|
 |--|
 |![](/assets/jenkins_1.png)|
@@ -101,6 +96,10 @@ Build with parameters from GitHub:
 |![](/assets/jenkins_3.png)|
 |![](/assets/jenkins_4.png)|
 |![](/assets/jenkins_5.png)|
+
+|Github|
+|--|--|
+|Check Webhooks status|![](/assets/github_1.png)|
 
 ### GitHub OAuth App
 https://wiki.jenkins.io/display/JENKINS/GitHub+OAuth+Plugin  
