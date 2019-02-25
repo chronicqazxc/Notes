@@ -31,3 +31,4 @@
 * [CICD](cicd.md)
 * [Certificates / Ids / Profiles](certificates-ids-profiles.md)
 * [Document Database](document-database.md)
+* [User Privacy](user-privacy.md)
