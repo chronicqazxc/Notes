@@ -91,8 +91,11 @@ Build with parameters from GitHub:
 ### PR Build
 |Jenkins|
 |--|
+| Jenkins configuration |
 |![](/assets/jenkins_1.png)|
 |![](/assets/jenkins_2.png)|
+| Jenkins Job |
+|![](/assets/jenkins_3.0.png)|
 |![](/assets/jenkins_3.png)|
 |![](/assets/jenkins_4.png)|
 |![](/assets/jenkins_5.png)|
