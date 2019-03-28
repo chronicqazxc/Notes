@@ -74,3 +74,7 @@ end
 
 # Conclusion
 Fastlane is a very flexible tool that can accomplish any tasks into your CICD flow, I will share more example in the future.
+
+# References
+https://github.com/gimite/google-drive-ruby/blob/master/doc/authorization.md#service-account 
+https://github.com/bskim45/fastlane-plugin-google_drive 
