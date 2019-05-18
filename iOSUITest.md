@@ -1,7 +1,7 @@
 # iOS UI Test
 
 ## SwiftMonkey
-https://github.com/wayne-lab/quick-news/blob/master/Podfile
+https://github.com/wayne-lab/quick-news/blob/master/Podfile  
 Podfile configuration
 ```ruby
 # Uncomment the next line to define a global platform for your project
