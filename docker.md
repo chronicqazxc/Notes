@@ -18,37 +18,68 @@
 16. [Pushing and Pulling to and from Docker Hub (Backup Images)](https://ropenscilabs.github.io/r-docker-tutorial/04-Dockerhub.html)
 17. [Login container as root](https://stackoverflow.com/a/35485346)
 
-## [Bind Mount](https://docs.docker.com/storage/bind-mounts/)
+# Bind Mount
 ```shell
-docker run --name your_container_name -p 80:8080 -p 50000:50000 -v /Users/your_username/Documents/jenkins_home:/var/jenkins_home jenkins/jenkins:lts
+docker run --name container_name -p 80:8080 -p 50000:50000 -v /Users/your_username/Documents/jenkins_home:/var/jenkins_home -e "TZ=Asia/Taipei" jenkins/jenkins:lts
 ```
-## [Create Volume](https://docs.docker.com/engine/reference/commandline/volume_create/)
+[reference](https://docs.docker.com/storage/bind-mounts/)
+# Create Volume (Preferred)
 ```shell
-docker run --name your_container_name -p 80:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home jenkins/jenkins:lts
+docker run --name container_name -p 80:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home -e "TZ=Asia/Taipei" jenkins/jenkins:lts
 ```
-## [Backup Volume](https://stackoverflow.com/a/41279845)
-1. Backup the data volume from the data container named data-container-to-backup
+[reference](https://docs.docker.com/engine/reference/commandline/volume_create/)
+# Backup Volume
+#### 1. Backup the data volume from the data container named data-container-to-backup
 ```shell
-docker run --rm --volumes-from jenkins_container_name --name tmp-backup -v $(pwd):/backup ubuntu tar cvf /backup/backup.tar /var/jenkins_home
+cd path_of_where_you_want_to_put_the_archive
 ```
-2. Expand this tar file into a new container so we can commit it as part of its image
 ```shell
-docker run -d -v $(pwd):/backup --name data-backup ubuntu /bin/sh -c "cd / && tar xvf /backup/backup.tar"
+docker run --rm --volumes-from container_name --name tmp-backup -v $(pwd):/backup ubuntu tar cvf /backup/backup.tar /var/jenkins_home
 ```
-3. Commit and push (if necessary) the image with a desired tag ($VERSION)
+#### 2. Expand this tar file into a new container so we can commit it as part of its image
+```shell
+cd path_of_where_the_archive_at
+```
+```shell
+docker run -d -v $(pwd):/backup --name data-backup ubuntu /bin/sh -c "cd / && tar xvf /backup/backup.tar && sudo chown -R $USER /backup/var/jenkins_home"
+```
+#### 3. Commit and push (if necessary) the image with a desired tag ($VERSION)
+*Check previous step has completed, use docker ps or docker logs to inspect.*
 ```shell
 docker commit data-backup repo/data-backup:$VERSION
-docker push repo/data-backup:$VERSION
+docker push repo/data-backup:$VERSION (optional)
 ```
-4. Clean up
+#### 4. Clean up
 ```shell
 docker rm data-backup
 ```
-5. Run the data container with the data-backup image
+#### 5. Run the data container with the data-backup image
 ```shell
 docker run -v /var/jenkins_home --entrypoint "bin/sh" --name data-container repo/data-backup:${VERSION}
 ```
-6. Run image with volumes from the data-conainter
+#### 6. Run image with volumes from the data-conainter
+*Remember the repo/version of image (jenkins) should be identical to the version that been used by the archive.*
 ```
-docker run --volumes-from=data-container --name your_container_name -p 80:8080 -p 50000:50000 jenkins/jenkins:lts
+docker run --volumes-from=data-container --name container_name -p 80:8080 -p 50000:50000 jenkins/jenkins:2.135
+```
+[reference](https://stackoverflow.com/a/41279845)
+# Run Jenkins container on https
+## Normal approach
+```
+keytool -genkey -keyalg RSA -alias selfsigned -keystore jenkins_keystore.jks -storepass {password} -keysize 2048
+docker run -v {volume id}:/var/jenkins_home -p 443:8443 jenkins/jenkins:2.135 --httpPort=-1 --httpsPort=8443 --httpsKeyStore=/var/jenkins_home/jenkins_keystore.jks --httpsKeyStorePassword={password}
+```
+[reference](https://stackoverflow.com/a/29836864)
+## Jenkins migration (from http to https)
+#### 1. Find out the volume_name.
+```
+docker inspect shdr_jenkins
+```
+#### 2. Shut down http Jenkins container.
+```
+docker stop shdr_jenkins
+```
+#### 3. Run a https Jenkins container with existed volume.
+```
+docker run --name container_name -p 443:8443 -p 50000:50000 -v {volume_name}:/var/jenkins_home -e "TZ=Asia/Taipei" jenkins/jenkins:2.135 --httpPort=-1 --httpsPort=8443
 ```
